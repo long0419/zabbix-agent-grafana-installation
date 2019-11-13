@@ -1,0 +1,15 @@
+version: '3'
+services:
+  zabbix-agent:
+    image: zabbix/zabbix-agent:latest
+    container_name: zabbix-agent
+    environment:
+      - ZBX_HOSTNAME=192.168.73.136  # agent server ip
+      - ZBX_SERVER_HOST=192.168.73.133 # zabbix server ip
+      - ZBX_SERVER_PORT=10051
+      - TZ='Asia/Shanghai'
+    network_mode: bridge
+    ports:
+      - "10050:10050"
+    restart: always
+    privileged: true
