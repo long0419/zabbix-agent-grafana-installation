@@ -19,9 +19,11 @@
 - docker run --name zabbix-agent -e ZBX_HOSTNAME='Zabbix server' -e ZBX_SERVER_HOST=172.29.231.159 
 -d zabbix/zabbix-agent:alpine-trunk
 
+
 # 3.Grafana 安装及插件配置：
 - 直接拿官方loki 代码进来 https://github.com/long0419/loki ，然后执行下面命令下载zabbix 插件：
 ```
 git clone https://github.com/alexanderzobnin/grafana-zabbix.git ./plugin
 ```
 - 然后执行docker-compose up -d
+![avatar](1573625343928.jpg)
