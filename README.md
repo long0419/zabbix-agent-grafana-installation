@@ -27,9 +27,9 @@
  #重启grafana
  docker restart grafana
 
-- 然后执行docker-compose up -d
+- 然后执行docker-compose up -d  
 
-grafana登录 ip:3000 ，默认账户admin 密码admin
-启用zabbix插件：Home -> Installed Apps (zabbix) -> Zabbix Plugin Config -> Enable
-添加zabbix数据源：Add data source -> Type: Zabbix
-... -> URL：http:// IP地址/api_jsonrpc.php ，Access选择direct->zabbix账户密码
+grafana登录 ip:3000 ，默认账户admin 密码admin  
+启用zabbix插件：Home -> Installed Apps (zabbix) -> Zabbix Plugin Config -> Enable  
+添加zabbix数据源：Add data source -> Type: Zabbix  
+... -> URL：http:// IP地址/api_jsonrpc.php ，Access选择direct->zabbix账户密码  
