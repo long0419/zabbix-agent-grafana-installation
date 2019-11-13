@@ -20,8 +20,8 @@
 -d zabbix/zabbix-agent:alpine-trunk
 
 # 3.Grafana 安装及插件配置：
-- 首先在当前目录上执行
+- 直接拿官方loki 代码进来 https://github.com/long0419/loki ，然后执行下面命令下载zabbix 插件：
 ```
-git clone https://github.com/alexanderzobnin/grafana-zabbix.git ./plugins/grafana-zabbix
+git clone https://github.com/alexanderzobnin/grafana-zabbix.git ./loki/production/plugin
 ```
 - 然后执行docker-compose up -d
