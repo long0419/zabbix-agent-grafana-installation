@@ -22,8 +22,8 @@
 # 3.Grafana 安装及插件配置：
 - 直接拿官方loki 代码进来 https://github.com/long0419/loki ，然后执行下面命令下载zabbix 插件：
 - 命令行执行:  
-  docker exec -it grafana grafana-cli plugins install alexanderzobnin-zabbix-app  
-
+  docker exec -it zabbix-grafana grafana-cli plugins install alexanderzobnin-zabbix-app  
+  
  # ✔ Installed alexanderzobnin-zabbix-app successfully 
 
  #重启grafana
