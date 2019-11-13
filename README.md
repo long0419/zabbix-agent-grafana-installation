@@ -1,7 +1,7 @@
 # 1.Zabbix 安装：  
 使用官方zabbix 镜像库地址: https://github.com/zabbix/zabbix-docker 即可，然后分别执行以下命令：   
 
-注意相应的地址替换
+注意相应的地址ip 替换
 ```
 - git checkout trunk
 
